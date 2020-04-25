@@ -122,7 +122,7 @@
     // smooth scrolling
     $('body').scrollspy({target: ".navbar", offset: 50});
 
-    $("#myNavbar a").on('click', function(event) {
+    $("#myNavbar a","#slide1 a","#slide2 a").on('click', function(event) {
 
         if (this.hash !== "") {
             event.preventDefault();

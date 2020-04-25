@@ -30,7 +30,7 @@
     
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div id="myNavbar" class="container">
           <a class="navbar-brand position-absolute" href="index.html">
            <img class="svg" src="img/logo.svg" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,35 +40,24 @@
           <div class="collapse navbar-collapse position-relative" id="navbarsExample05">
             <ul class="navbar-nav mx-auto pl-lg-5 pl-0 d-flex align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="#projekte">Projekte</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="works.html">Projekte</a>
+                <a class="nav-link" href="#mitarbeiter">Über uns</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="#news">News</a>
               </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Über uns</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Wer wir sind</a>
-                  <a class="dropdown-item" href="services.html">Was wir erreichen wollen</a>
-                  <a class="dropdown-item" href="services.html">Wie wir das erreichen wollen</a>
-                </div>
-
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Nimm Kontakt auf</a>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sprache</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
                   <a class="dropdown-item" href="services.html">Deutsch</a>
                   <a class="dropdown-item" href="services.html">English</a>
                 </div>
               </li>
               <li class="nav-item cta-btn2">
-                <a class="nav-link" href="get-quote.html">
-                  <span class="d-inline-block px-4 py-2 border">Quotation</span>
+                <a class="nav-link" href="contact.html">
+                  <span class="d-inline-block px-4 py-2 border">Kontakt</span>
                 </a>
               </li>
             </ul>
@@ -79,13 +68,13 @@
     <!-- END header -->
     
     <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
+      <div id="slide1" class="slider-item" style="background-image: url('img/slider-2.jpg');">
         
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center text-center">
             <div class="col-md-7 col-sm-12 element-animate">
               <h1 class="mb-4">Schwedens nachhaltigstes Bauunternehmen</h1>
-              <p class="mb-0"><a href="#" target="_blank" class="btn btn-primary">Starten</a></p>
+              <p class="mb-0"><a href="#start" class="btn btn-primary">Starten</a></p>
               
             </div>
           </div>
@@ -93,12 +82,12 @@
 
       </div>
 
-      <div class="slider-item" style="background-image: url('img/slider-1.jpg');">
+      <div id="slide2" class="slider-item" style="background-image: url('img/slider-1.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center text-center">
             <div class="col-md-8 col-sm-12 element-animate">
               <h1 class="mb-4">Wir bauen schnell und Nachhaltig. Mit Ehrgeiz.</h1>
-              <p class="mb-0"><a href="#" target="_blank" class="btn btn-primary">Anfangen</a></p>
+              <p class="mb-0"><a href="#start" class="btn btn-primary">Anfangen</a></p>
             </div>
           </div>
         </div>
@@ -109,7 +98,7 @@
     <!-- END slider -->
 
     <section class="section bg-light">
-      <div class="container">
+      <div id="start" class="container">
         <div class="row align-items-center">
           <div class="col-md-6 pr-lg-5 mb-5 mb-md-0  element-animate">
             <div class="pr-lg-5">
@@ -126,12 +115,12 @@
     </section>
     
     <section class="section border-t">
-      <div class="container">
+      <div id="projekte" class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class="text-uppercase heading border-bottom mb-4">Våra projekter</h2>
+            <h2 class="text-uppercase heading border-bottom mb-4">Projekte</h2>
             <p class="mb-3 lead">Vår hållbara strategi och framtidsorientering är det som gör oss till ett av de mest framgångsrika företagen i sverige.</p>
-            <p><a href="works.html" class="btn btn-primary">Visa alla projekter.</a></p>
+            <p><a href="works.html" class="btn btn-primary">Alle Projekte</a></p>
           </div>
         </div>
  </div>
@@ -164,11 +153,10 @@
     <!-- END section -->
 
     <section class="section">
-      <div class="container">
-
+      <div id="mitarbeiter" class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center">
-            <h2 class="text-uppercase heading border-bottom mb-4">Services</h2>
+            <h2 class="text-uppercase heading border-bottom mb-4">Mitarbeiter</h2>
             <p class="mb-3 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
           </div>
         </div>
@@ -215,7 +203,7 @@
         </div>
         <!-- END row -->
         <div class="row justify-content-center element-animate"> 
-          <div class="col-md-4"><p><a href="services.html" class="btn btn-primary btn-block">View All Services</a></p></div>
+          <div class="col-md-4"><p><a href="services.html" class="btn btn-primary btn-block">Alle Mitarbeiter</a></p></div>
         </div>
       </div>
     </section>
@@ -223,10 +211,10 @@
 
   
     <section class="section bg-light">
-      <div class="container">
+      <div id="news" class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center mb-5">
-            <h2 class="text-uppercase heading border-bottom mb-4">Our News</h2>
+            <h2 class="text-uppercase heading border-bottom mb-4">News</h2>
             <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
           </div>
         </div>

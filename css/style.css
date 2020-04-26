@@ -614,6 +614,11 @@ header {
   opacity: 0;
   visibility: hidden; }
 
+.partner{
+    height: 100px;
+    margin: 0 auto;
+}
+
 #loader {
   position: fixed;
   width: 96px;

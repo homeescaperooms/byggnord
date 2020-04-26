@@ -470,7 +470,7 @@ header {
 
 .media-testimonial img {
   width: 100px;
-  border-radius: 50%; }
+  border-radius: 0%; }
 
 .media-testimonial blockquote p {
   font-size: 20px;
@@ -613,6 +613,10 @@ header {
 .element-animate {
   opacity: 0;
   visibility: hidden; }
+
+.partner{
+    height: 200px;
+}
 
 #loader {
   position: fixed;

@@ -616,6 +616,7 @@ header {
 
 .partner{
     height: 200px;
+    width: auto;
 }
 
 #loader {
